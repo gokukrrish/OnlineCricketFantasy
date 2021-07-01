@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="CircBuzz" verbose  = "1">
+<listeners>
+	<listener class-name="utilities.Listener"></listener>
+</listeners>
+<test name = "Test1">
+<parameter name="baseURL" value="https://www.cricbuzz.com/"/>
+<parameter name="curMatch" value="India vs Australia"/>
+<classes>
+	<class name = "sourceCode.MainFile"/>
+</classes>
+</test>
+</suite>
